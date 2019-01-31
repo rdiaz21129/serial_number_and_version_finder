@@ -1,0 +1,70 @@
+===============
+COMMAND: show run | in hostname
+===============
+show run | in hostname
+hostname csw-01
+-----end_of_line-----
+
+===============
+COMMAND: terminal length 0
+===============
+terminal length 0
+-----end_of_line-----
+
+===============
+COMMAND: show inventory
+===============
+show inventory
+NAME: "c38xx Stack", DESCR: "c38xx Stack"
+PID: WS-C3850-48F-E    , VID: V05  , SN: AAAAAAAAAA1
+
+NAME: "Switch 1", DESCR: "WS-C3850-48F-E"
+PID: WS-C3850-48F-E    , VID: V05  , SN: AAAAAAAAAA1
+
+NAME: "StackPort1/1", DESCR: "StackPort1/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: 12345665412
+
+NAME: "StackPort1/2", DESCR: "StackPort1/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: 12345665413
+
+NAME: "Switch 1 - Power Supply A", DESCR: "Switch 1 - Power Supply A"
+PID: PWR-C1-350WAC     , VID: V01  , SN: GGGGTTTT565
+
+NAME: "Switch 1 - Power Supply B", DESCR: "Switch 1 - Power Supply B"
+PID: PWR-C1-350WAC     , VID: V01  , SN: EEEEEEEEREE
+
+NAME: "Switch 1 FRU Uplink Module 1", DESCR: "4x1G Uplink Module"
+PID: C3850-NM-4-1G     , VID: V01  , SN: FDSAFDSAFDS
+
+NAME: "Switch 2", DESCR: "WS-C3850-48F-E"
+PID: WS-C3850-48F-E    , VID: V05  , SN: AAAAAAAAAA2
+
+NAME: "StackPort2/1", DESCR: "StackPort2/1"
+PID: STACK-T1-50CM     , VID: V01  , SN: 12345665413
+
+NAME: "StackPort2/2", DESCR: "StackPort2/2"
+PID: STACK-T1-50CM     , VID: V01  , SN: 12345665412
+
+NAME: "Switch 2 - Power Supply A", DESCR: "Switch 2 - Power Supply A"
+PID: PWR-C1-715WAC     , VID: V01  , SN: ASDFREWQASD
+
+NAME: "Switch 2 - Power Supply B", DESCR: "Switch 2 - Power Supply B"
+PID: PWR-C1-350WAC     , VID: V01  , SN: ASDFGHJKLPO
+
+NAME: "Switch 2 FRU Uplink Module 1", DESCR: "4x1G Uplink Module"
+PID: C3850-NM-4-1G     , VID: V01  , SN: 12345678911
+
+
+-----end_of_line-----
+
+===============
+COMMAND: show version | in Ver
+===============
+show version | in Ver
+Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.3.6, RELEASE SOFTWARE (fc3)
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+BOOTLDR: CAT3K_CAA Boot Loader (CAT3K_CAA-HBOOT-M) Version 4.68, RELEASE SOFTWARE (P)
+Switch Ports Model              SW Version        SW Image              Mode
+-----end_of_line-----

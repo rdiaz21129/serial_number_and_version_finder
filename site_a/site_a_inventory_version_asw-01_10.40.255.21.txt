@@ -1,0 +1,58 @@
+===============
+COMMAND: show run | in hostname
+===============
+show run | in hostname
+hostname asw-01
+-----end_of_line-----
+
+===============
+COMMAND: terminal length 0
+===============
+terminal length 0
+-----end_of_line-----
+
+===============
+COMMAND: show inventory
+===============
+show inventory
+NAME: "1", DESCR: "WS-C2960X-48FPS-L"
+PID: WS-C2960X-48FPS-L , VID: V02  , SN: BBBBBBBBBB1
+
+NAME: "Switch 1 - RPS", DESCR: "RPS2300"
+PID: PWR-RPS2300       , VID: V03  , SN: B1111111111
+
+NAME: "Switch 1 - RPS Power Supply B", DESCR: "RPS FRU Power Supply"
+PID: C3K-PWR-750WAC    , VID: V02  , SN: B1111111112
+
+NAME: "2", DESCR: "WS-C2960X-48FPS-L"
+PID: WS-C2960X-48FPS-L , VID: V02  , SN: BBBBBBBBBB2
+
+NAME: "Switch 2 - RPS", DESCR: "RPS2300"
+PID: PWR-RPS2300       , VID: V03  , SN: B1111111113
+
+NAME: "Switch 2 - RPS Power Supply B", DESCR: "RPS FRU Power Supply"
+PID: C3K-PWR-750WAC    , VID: V02  , SN: B1111111114
+
+NAME: "3", DESCR: "WS-C2960X-48FPS-L"
+PID: WS-C2960X-48FPS-L , VID: V02  , SN: BBBBBBBBBB3
+
+NAME: "Switch 3 - RPS", DESCR: "RPS2300"
+PID: PWR-RPS2300       , VID: V03  , SN: B1111111115
+
+NAME: "Switch 3 - RPS Power Supply B", DESCR: "RPS FRU Power Supply"
+PID: C3K-PWR-750WAC    , VID: V02  , SN: B1111111116
+
+
+-----end_of_line-----
+
+===============
+COMMAND: show version | in Ver
+===============
+show version | in Ver
+Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.0(2a)EX5, RELEASE SOFTWARE (fc3)
+BOOTLDR: C2960X Boot Loader (C2960X-HBOOT-M) Version 15.2(2r)E1, RELEASE SOFTWARE (fc1)
+Version ID                      : V02
+Switch Ports Model              SW Version            SW Image
+Version ID                      : V02
+Version ID                      : V02
+-----end_of_line-----
