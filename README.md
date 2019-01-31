@@ -1,5 +1,5 @@
-Purpose: Goes through every file (txt) in a directory and parses out the switch(s)' model,serial number, and IOS version
-Required: directory/path with files (per switch that include a [show inventory && show version | in Ver] output)
+#Purpose: Goes through every file (txt) in a directory and parses out the switch(s)' model,serial number, and IOS version
+#Required: directory/path with files (per switch that include a [show inventory && show version | in Ver] output)
 
 # Below is how to run python script<br/>
 
