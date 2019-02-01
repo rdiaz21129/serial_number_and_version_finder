@@ -4,8 +4,8 @@
 # Below is how to run python script<br/>
 
 	~~~~~~~~~~ START ~~~~~~~~~~
-	rdiaz@Ricardo-Mint ~ $ python3.5 serial_number_and_version_finder_ver_1_00.py 
-	Enter path of site directory: /home/rdiaz/Documents/prod/serial_number_and_version_finder/site_a/
+	python3.5 <python_script.py> <directory>
+	rdiaz@Ricardo-Mint ~ $ python3.5 serial_number_and_version_finder_ver_1_00.py /home/rdiaz/Documents/prod/serial_number_and_version_finder/site_a/ 
 	~~~~~~~~~~ END ~~~~~~~~~~
 
 # AFTER PYTHON SCRIPT IS RAN<br/>
